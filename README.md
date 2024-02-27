@@ -6,6 +6,7 @@ Solution for this kind of scenarios is to use serverless capabilities in cloud t
 Steps involved are :
 
 1.Create cloud watch  alaram that can track the usage of EC2 cpu.
+
 2.Create a lambda function that gets triggred to stop the EC2 instance with low CPU utilization.
 
 
