@@ -4,8 +4,9 @@ Due to the trending features of cloud resources are being deployed to cloud on d
 Solution for this kind of scenarios is to use serverless capabilities in cloud to automatically maintain resources effectively that are being deployed.
 
 Steps involved are :
-Create cloud watch  alaram that can track the usage of EC2 cpu
-Create a lambda function that gets triggred to stop the EC2 instance with low CPU utilization.
+
+1.Create cloud watch  alaram that can track the usage of EC2 cpu.
+2.Create a lambda function that gets triggred to stop the EC2 instance with low CPU utilization.
 
 
 
